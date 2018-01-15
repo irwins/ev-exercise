@@ -1,6 +1,6 @@
 {
     "AWSEBDockerrunVersion": "1",
-    "Logging": "/tmp/sample-app",
+    "Logging": "/tmp/evision",
     "Ports": [
         {
             "ContainerPort": "8080"
