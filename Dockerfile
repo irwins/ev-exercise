@@ -3,8 +3,8 @@ RUN apt-get update -qq \
 && apt-get install -y wget
 RUN mkdir /tmp/evision \
 && cd /tmp \
-&& wget --no-check-certificate https://raw.githubusercontent.com/irwins/temp-git/master/eVision-product-ops.linux.1.0.0.tar.gz \
-&& tar xvzf eVision-product-ops.linux.1.0.0.tar.gz
+&& wget --no-check-certificate https://raw.githubusercontent.com/irwins/ev-exercise/tree/v1.0.1/src/Vision-product-ops.linux.1.0.1.tar.gz \
+&& tar xvzf eVision-product-ops.linux.1.0.1.tar.gz
 
 EXPOSE 8080
 
